@@ -3,6 +3,7 @@
     --color-p1-shadow-height: #5956e9;
     --color-p2-shadow: #2f2f2f;
     --color-s1-light: #f6f6f6;
+    --color-s4-light-low: #f9f9f9;
     --color-s2-white: #ffff;
     --color-s3-light-low: #797979;
 }
@@ -15,6 +16,14 @@
 }
 *{
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;  
+    font-size: 1.2vw;
+}
+h2{
+    font-size: 3vw;
+}
+h3{
+    font-size: 2vw;
 }
 a{
     text-decoration: none;
@@ -34,15 +43,23 @@ a{
     border-color: var(--color-s1-light);
     color: var(--color-p2-shadow);
     font-weight: 500;
-    padding: 2% 1%;
+    padding: 1vw 0.2vw;
     border-radius: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 120px;
-    line-height: 130%;
+    line-height: 100%;
     transition: .5s ease-in-out;
 
+}
+.buttom--tag{
+    background-color: var(--color-s4-light-low);
+    color: black;
+    transition: 0s ease-in-out;
+    width: 10vw;
+    height: 1vw;
+    padding: 1vw;
 }
 .button:hover{
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, .5);
@@ -66,8 +83,8 @@ a{
     transition: .2s ease-in-out;
 }
 .button--small{
-   /* padding: 1.2% 1%; */
-   line-height: 30%;
+   padding: 0.5vw 0.2vw;
+   line-height: 100%;
    font-family: system-ui;
 }
 .button--large{
