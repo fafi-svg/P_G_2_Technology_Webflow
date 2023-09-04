@@ -177,6 +177,11 @@ footer{
     border-left: 0.1vw solid  #ffff ;
     width: 20vw;
 }
+.acomodo--boton{
+    padding: 2vh 1vw;
+    width: 15vw;
+    font-size: 1vw;
+}
 .color--azul{
     color: #38d4ff;
 }
