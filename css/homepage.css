@@ -5,6 +5,7 @@
 p, h2, h3, h4{
     margin: 0;
 }
+/*-------------------- SECTION CLIENT_LOGOS --------------------*/
 .client{
     display: flex;
     justify-content: center;
@@ -16,6 +17,8 @@ p, h2, h3, h4{
 .client-image img{
     width: 10vw;
 }
+/*-------------------- SECTION CLIENT_LOGOS --------------------*/
+/*-------------------- SECTION TOOLS_SERVICES --------------------*/
 .tools{
     display: grid;
     grid-template-columns: 40% 40%;
@@ -80,12 +83,41 @@ p, h2, h3, h4{
     font-weight: 600;
 }
 
+/*-------------------- SECTION TOOLS_SERVICES --------------------*/
+/*-------------------- SECTION FEATURES --------------------*/
 .features__title{
     text-align: center;
     padding: 1vw 0;
 }
 
+.features{
+    display: grid;
+    grid-template-columns: repeat(3 , 26.66%);
+    gap: 1em;
+    justify-content: center;
+}
+.features__content{
+    border: .1em solid;
+    border-color: var( --color-s4-light-low);
+    padding: 1.5em;
+    border-radius: 1em;
+}
+.features__content-icon{
+    padding-top: 1em;
+}
+.features__content-tex{
+    margin-top: 1em;
+}
+.features__content-description{
+    padding-bottom: 1.5em;
+    border-bottom: .14em solid;
+    border-color: var(--color-border-s1);
+}
 .features__content-icon{
     display: flex;
     justify-content: space-between;
 }
+.features__icon-img img{
+    width: 2em;
+}
+/*-------------------- SECTION FEATURES --------------------*/
