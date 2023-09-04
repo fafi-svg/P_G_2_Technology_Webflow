@@ -11,7 +11,9 @@
 a{
     font-size: 1vw;
 }
-
+.color--gris{
+    color: #797979;
+}
 /* contenido del footer */
 footer{
     display: flex;
@@ -118,6 +120,13 @@ footer{
     border-left: 0.1vw solid  #ffff ;
     width: 20vw;
 }
+.color--azul{
+    color: #38d4ff;
+}
+.grosor--texto{
+    color: black;
+    font-weight: 1000;
+}
 .seccion_contacto{
     display: flex;
     padding: 5vh 0px;
@@ -133,6 +142,7 @@ footer{
 }
 .texto_copyright{
     font-size: 01vw;
+    color: #797979;
 }
 .icono--tamaño{
     width: 1.5vw;
