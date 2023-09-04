@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    padding: 0px 10vw;
+    flex-direction: column;
+    gap: 5vh;
+}
+.imagen_logo{
+    width: 13vw;
+    height: 4vh;
+}
+.seccion_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 0px;
+    border-top: 2px solid #DCDCDC;
+    border-bottom: 2px solid #DCDCDC;
+
+}
+.boton_espacio{
+   width: 12vw;
+   height: 7vh;
+   font-size: 2vh;
+}
+.seccion_contenido{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 45vw;
+}
+.seccion_contenido_espacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
