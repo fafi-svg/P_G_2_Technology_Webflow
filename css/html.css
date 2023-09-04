@@ -3,6 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* contenido del footer */
 footer{
     display: flex;
     padding: 0px 10vw;
@@ -17,24 +19,77 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3vh 0px;
+    padding: 5vh 0px;
     border-top: 2px solid #DCDCDC;
     border-bottom: 2px solid #DCDCDC;
 
 }
-.boton_espacio{
-   width: 12vw;
-   height: 7vh;
-   font-size: 2vh;
+.boton_espacio {
+    width: 17vw;
+    height: 10vh;
+    font-size: 2vh;
 }
 .seccion_contenido{
-    border: 1px solid red;
     display: flex;
-    justify-content: center;
-    gap: 45vw;
+    padding: 5vh 0px;
+}
+.alineamiento{
+    align-items: end;
 }
 .seccion_contenido_espacio{
+    border: 1px solid yellow;
+}
+.espacio--derecha{
+    padding-right: 3vw;
+}
+.seccion_contenido_separacion{
+    display: flex;
+    gap: 10vw;
+}
+.seccion_texto{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    
+}
+.contenido_separar{
     display: flex;
     flex-direction: column;
+    gap: 5vh;
+}
+.alinear{
+    display: grid;
+    row-gap: 2vh;
+}
+.contenido_espacio{
+    display: flex;
+    gap: 3vw;
+}
+.espacio--izquierda{
+    padding-left: 3vw;
+}
+.izquierda--fondo{
+    background-color: #2f2f2f;
+    display: flex;
     justify-content: space-between;
+    height: 50vh;
+    padding: 6vh 2vw;
+    border-radius: 15px;
+    gap: 5vw;
+}
+.acomodar--izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5vh;
+}
+.seccion_contacto{
+    display: flex;
+    padding: 5vh 0px;
+    border-top: 2px solid #DCDCDC;
+    justify-content: space-between;
+}
+.contacto{
+    display: flex;
+    gap: 2vw;
 }
