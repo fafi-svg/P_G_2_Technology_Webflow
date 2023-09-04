@@ -11,9 +11,11 @@ p{
     color:  white;
 }
 .secciomn_alineamiento {
-    display: grid;
-    padding: 0px 13vw;
-    gap: 6vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10vw;
+    gap: 10vw;
+    padding-bottom: 20vh;
 }
 .contenedor--alinear {
     display: flex;
@@ -44,12 +46,15 @@ p{
     font-size: 4vw;
 }
 .text--grande{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 3vw;
 }
 .espaciados_abajo_texto{
     display: grid;
     padding-bottom: 4vh;
-    border-bottom: 0.1vw solid #797979;
+    border-bottom: 0.1vw solid #f6f6f6;
     gap: 1vw;
 }
 .espaciados_arriba_texto{
@@ -82,14 +87,17 @@ p{
     padding: 3vh 0px;
 }
 .texto_alineado {
-    text-align: center;
     display: grid;
     gap: 5vw;
+    padding: 0px 10vw;
 }
 .centrado--texto{
     display: flex;
     justify-content: center;
-    gap: 7vw;
+    gap: 5vw;
+}
+.alinear_centro{
+    text-align: center;
 }
 .texto--menos_grande{
     font-size: 2.8vw;
@@ -124,4 +132,96 @@ p{
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 10vw;
+    row-gap: 5vh;
+}
+.dalos_value{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 2vw;
+    width: 22vw;
+}
+.dalos_value:hover::after{
+    content: "";
+    display: grid;
+    width: 25vw;
+    height: 40vh;
+    border: 0.1vw solid #f0eaea;
+    border-radius: 1vw;
+    position: absolute;
+}
+.value_imagen{
+    width: 5.5vw;
+}
+.parrafo_value{
+    text-align: center;
+}
+.seccion_team{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    background-color: #5b57ff;
+    padding: 15vh 10vw;
+    color: white;
+}
+.seccion_team p{
+    color: white;
+    font-weight: 100;
+}
+.contenido_team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor_imagenes_team{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.perfil_team{
+    width: 24.5vw;
+}
+.contenedor_iconos_team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    gap: 2vw;
+}
+.icono_blanco_facebook{ 
+    width: 0.8vw;
+}
+.icono_blanco_twiter{
+    width: 1.6vw;
+}
+.icono_blanco_in{
+    width: 1.4vw;
+}
+.seccion_investors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  20vh 10vw;
+}
+.alinear_investors {
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
+    row-gap: 3vh;
+}
+.fondo_gris{
+    background-color: #f0eaea;
+    padding: 8vh 4vw;
+    border-radius: 1vw;
+}
+.logo_titulo {
+    width: 13.5vw;
+    padding-bottom: 1vw;
+}
+.logo_titulo--ini{
+    width: 12vw;
+    padding-bottom: 1vw;
 }
