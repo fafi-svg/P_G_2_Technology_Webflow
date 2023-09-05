@@ -3,7 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.headboard--fondo{
+    width: 90%;
+    position: relative;
+    background-image: url(../img/background_headboard-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:100% auto; 
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 1vw;
+}
 p{
     color:  #797979;
 }
@@ -13,7 +24,7 @@ p{
 .secciomn_alineamiento {
     display: flex;
     flex-direction: column;
-    padding: 0px 10vw;
+    padding: 10vw 10vw 0px 10vw;
     gap: 10vw;
     padding-bottom: 20vh;
 }
@@ -44,6 +55,9 @@ p{
 }
 .texto--mas_grande{
     font-size: 4vw;
+}
+.text--principal{
+    font-size: 3vw ;
 }
 .text--grande{
     display: flex;
