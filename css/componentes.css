@@ -48,6 +48,9 @@ a{
 .cursor-pointer{
     cursor: pointer;
 }
+.color-blanco{
+    color: var(--color-s2-white);
+}
 /*--######################## button ########################--*/
 .button{
     background-color: var(--color-s2-white);
@@ -131,6 +134,12 @@ a{
     border: .14em solid;
 }
 
+.boton--color{
+    padding: 2vh 1vw;
+    width: 11vw;
+    background-color: #797979;
+    font-size: 1vw;
+}
 
 /*--######################## button ########################--*/
 /*--######################## input ########################--*/
