@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main__ofertas{
+    height: 600px;
+    width: 350px;
+    border: 2px solid#DCDCDC;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.main__ofertas_title{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.style_popular{
+    background-image: url(..//img/Group\ 22\ __fondo\ _popular\(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 18px;
+    border-radius: 20px;
+    background-color: #5956E9;
+
+}
+.main__ofertas_prime{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-top: 2px solid #DCDCDC;
+    border-bottom: 2px solid #DCDCDC;
+}
+.style_border{
+    padding: 10px 18px;
+    border-radius: 20px;
+    color: #FFF;
+    background-color: black;
+    font-size: 18PX;
+}
+.main__ofertas__contenido{
+    height: 40%;
+    padding: 25px;
+
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+.contenido img{
+    width: 0.9vw;
+    height: 1.5vh;
+}
+.button__get button{
+    border-radius: 39px;
+    border: 1px solid #D3D3D3;
+    top: 10px;
+    padding: 20px 100px;
+    font-size: 15px;
+
+}
+.button__get__background{
+    border-radius: 39px;
+    border: 1px solid #D3D3D3;
+    top: 10px;
+    padding: 20px 100px;
+    font-size: 15px;
+    background-color: #5956E9;
+    
+}
+.style_texto{
+    color: #808080;
+}
+
+.section__security{
+   
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    
+    
+}
+.section__security_container{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.section__security_izquieda{
+    width: 24vw;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    background: #5956E9;
+    align-items: center;
+}
+.section__security_izquieda img {
+    
+    width: 5vw;
+    
+}
+.section__security_izquieda h2{
+    color: #FFF;
+    
+    
+}
+.section__security_derecha{
+    padding: 20px;
+}
+
