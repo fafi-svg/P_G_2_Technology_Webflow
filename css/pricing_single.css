@@ -3,93 +3,89 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
-.main{
-    width: 100%;
+.banner{
     display: flex;
     justify-content: center;
-   
+    margin-bottom: 4em;
+    margin-top: 2em;
 }
-
-.main__plan{
-    width: 890px;
-    height: 297px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-}
-.main__plan_izquierda{   
-    width: 45%;
+.banner__text{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Fondo__Header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 2em;
+    color: #fff;
 }
-.main__plan_izquierda h3 {
-    font-size: 23px;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main__plan{
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 0.4em;
+
+}
+.main__plan_izquierda {
+    margin-top: 1em;
+    width: 40vw;
+    padding: 1em;
+}
+.main__plan_izquierda h4{
+    margin-bottom: 1em;
 }
 .main__plan_izquierda p{
+    font-size: 0.8em;
+    margin-bottom: 1em;
     color: #808080;
-    font-size: 15px ;
-    margin-top: 7px;
 }
-.main__plan_izquierda h2{
-    font-size: 35px;
-    margin-top: 12px;
+.select_box{
+    font-size: 0.7em;
+    margin-top: 1.5em;
+    width: 25vw;
+    height: 7vh;
+    border-radius: 1.9em;
+    padding: 1em;
 }
-.main__plan_izquierda samp{
-    font-size: 12px;
-}
-.select_box {
-    display: flex;
-    padding: 8px;
-    justify-content: space-around;
-    border: 1px solid #D3D3D3 ;
-    border-radius: 15px;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.select_box img {
-    width: 12px;
-    height: 9px;
+.container__button{
+    margin-top: 1em;
     
-}
-.button_add{
-    background-color: #5956E9;
-    border-radius: 20px;
-    padding: 8px;
 }
 .main__plan_derecha{
-    width: 65%;
+    padding: 0.8em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    
 }
-.main__plan_derecha h2{
-    font-size: 24px ;
+.main__plan_derecha h3, p {
+    margin-bottom: 1em;
 }
-.main__plan_derecha p {
+.main__plan_derecha h3{
+    font-size: 1.3em;
+}
+.main__plan_derecha p{
     color: #808080;
-    font-size: 15px ;
+    font-size: 0.8em;
 }
-.main__plan_derecha_informacion{
-    width: 550px;
-    height: 300px;
- 
+.infomacion img{
+    width: 1vw;
+    height: 2vh;
 }
 .infomacion{
-    width: 100%;
     display: flex;
-    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
 }
-.infomacion p{
-    color: black;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.infomacion img {
-    
-    width: 15px;
-    height: 13px;
+.infomacion h4{
+    font-size: 1.1em;
 }
