@@ -110,7 +110,7 @@ footer{
 }
 .espacio--derecha{
     padding-right: 3vw;
-    border-right: 1px solid#DCDCDC;
+    border-right: 0.1vw solid#DCDCDC;
 }
 .seccion_contenido_separacion{
     display: flex;
@@ -177,6 +177,11 @@ footer{
     border-left: 0.1vw solid  #ffff ;
     width: 20vw;
 }
+.acomodo--boton{
+    padding: 2vh 1vw;
+    width: 15vw;
+    font-size: 1vw;
+}
 .color--azul{
     color: #38d4ff;
 }
@@ -197,8 +202,14 @@ footer{
     display: flex;
     gap: 2vw;
 }
+.color--gris{
+    color: #797979;
+}
+.boton--borde{
+    border: 0.1vw solid #797979;
+}
 .texto_copyright{
-    font-size: 01vw;
+    font-size: 1vw;
     color: #797979;
 }
 .icono--tamaño{
