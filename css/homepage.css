@@ -398,3 +398,14 @@ p, h2, h3, h4{
     padding-top: 1.5em;
 }
 /*-------------------- SECTION WORKERS --------------------*/
+/*-------------------- SECTION ARTICLE --------------------*/
+.article{
+    width: 80%;
+}
+.article_content{
+    display: grid;
+    grid-template-columns: repeat(3 , 36%);
+    gap: 1em;
+}
+
+/*-------------------- SECTION ARTICLE --------------------*/
