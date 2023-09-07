@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html</title>
-    <link rel="stylesheet" href="css/html.css">
     <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/html.css">
+ 
 </head>
 
 <body>
@@ -27,9 +28,11 @@
 
             <div class="header__tienda">
                 <img src="img/Cart Icon.png" alt="">
-
-                <button class="button_sing">Sign In</button>
-
+                <div class="container__button">
+                    <a  class="button--tag user-select-none cursor-pointer" onclick="btAnimation()" id="tg"> <!--Modificadores button--tag button--emphasis button--emphasis-tag button--emphasis-small button--small button--large -->
+                        Sign In
+                    </a>  
+                </div>
             </div>
 
 
@@ -39,7 +42,7 @@
             <img src="img/Fondo__Header.png" alt="fondo">
             <div class="section__texto">
                 <h2>This is Our Pricing Table</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing
+                <p>Lorem Ipsum is simply dummy text of the printing <br>
                     and typesetting industry.
                 </p>
 

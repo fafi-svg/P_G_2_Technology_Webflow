@@ -111,3 +111,8 @@
 .section__right p{
     color: #808080;
 }
+
+.button--princing-aspect{
+    aspect-ratio: 15/3;
+    margin: auto;
+}
