@@ -5,8 +5,30 @@
 p, h2, h3, h4{
     margin: 0;
 }
-.client, .tools, .features, .contact{
+*{
+    user-select: none;
+}
+p, h2, h3, h4{
+    user-select:all;
+}
+.client-logo, 
+.tools-started, 
+.features-container, 
+.contact-container, 
+.connect-networks, 
+.connect-account, 
+.workers-container{
+    margin-top: 5em;
     margin-bottom: 5em;
+}
+.text--color-gray{
+    color: var( --color-s3-light-low);
+}
+.text--color-white{
+    color: var(--color-s4-light-low);
+}
+.text--color-white, .text--color-gray{
+    line-height: 1.4em;
 }
 /*-------------------- SECTION CLIENT_LOGOS --------------------*/
 .client{
@@ -27,9 +49,9 @@ p, h2, h3, h4{
     grid-template-columns: 40% 40%;
     justify-content: center;
 }
-.tools-started{
+/* .tools-started{
     padding: 10vw 0;
-}
+} */
 .tools__text, .tools__text-checks{
     display: flex;
     gap: 2.5vw;
@@ -92,7 +114,6 @@ p, h2, h3, h4{
     text-align: center;
     padding: 1vw 0;
 }
-
 .features{
     display: grid;
     grid-template-columns: repeat(3 , 26.66%);
@@ -105,11 +126,15 @@ p, h2, h3, h4{
     padding: 1.5em;
     border-radius: 1em;
 }
+.features__content-title{
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
 .features__content-icon{
     padding-top: 1em;
 }
 .features__content-tex{
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 .features__content-description{
     padding-bottom: 1.5em;
@@ -195,6 +220,181 @@ p, h2, h3, h4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 75%;
+    height: 80%;
 }
 /*-------------------- SECTION CONNECT --------------------*/
+/*-------------------- SECTION ACCOUNT --------------------*/
+.account{
+    display: grid;
+    grid-template-columns: 35% auto;
+    width: 80%;
+    margin: auto;
+}
+.account__content-info{
+    background-image: url(../img/background-degraded-2.png);
+    background-size: 100% 100%;
+    color: white;
+    padding: 0 2em;
+    display: grid;
+    gap: 1em;
+    place-content: center;
+    border-radius: .8em;
+}
+.account__content-steps{
+    padding: 0 3em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.account__steps-text{
+    display: grid;
+    margin-top: .5em;
+}
+.button--small-plus{
+    aspect-ratio: 90/30;
+}
+.account__steps h2{
+    margin-bottom: .4em;
+}
+/*-------------------- SECTION ACCOUNT --------------------*/
+/*-------------------- SECTION WORKERS --------------------*/
+
+.workers{
+    background-color: var(--color-s4-light-low);
+    width: 80%;
+    margin: auto;
+    display: grid;
+    padding: 4em;
+    text-align: center;
+    border-radius: 1.2vw;
+}
+.workers__slider{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    align-items: center;
+    justify-items: center;
+    height: 20vw;
+    margin-top: 1em;
+}
+.workers__person{
+    display: grid;
+    overflow-y: auto;
+    scroll-behavior:smooth;
+    grid-template-columns: 100% 100%;
+    align-items: center;
+}
+
+.workers__person::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.workers__person::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.workers__person::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+
+.workers__person-item{
+    text-align: center;
+    width: 100%;
+    display: grid;
+    gap: .5em;
+    /* scroll-margin: 0;
+    scroll-snap-align: y mandatory; */
+}
+
+.workers__person-img{
+    position: relative;
+    width: max-content;
+    margin: auto;
+}
+
+.workers__person-photo{
+    width: 6em;
+    overflow: hidden;
+    border-radius: 1000px;
+}
+.workers__icon-comillas img{
+    width: 1em;
+}
+.workers__icon-comillas{
+    position: absolute;
+    left: -10%;
+    bottom: 8%;
+    background-color: var(--color-p1-shadow-height);
+    aspect-ratio: 1/1;
+    display: grid;
+    place-content: center;
+    border-radius: 100px;
+    padding: 0.5em;
+}
+.workers__icon-star img{
+    height: 1.2em;
+}
+/*---------- WORKERS_BUTTON ----------*/
+.workers__button{
+    background-color: white;
+    color: black;
+    height: 2.5em;
+    width: 2.5em;
+    display: grid;
+    place-content: center;
+    border-radius: 100px;
+    transition: background-color .2 ease-in-out;
+    cursor: pointer;
+}
+.workers__button-icon{
+    width: 1em;
+}
+.workers__button:hover{
+    background-color: var(--color-p1-shadow-height);
+    transition: background-color .2s ease-in-out;
+}
+.workers__button > img{
+    filter: brightness(0);
+    transition: background-color 2s ease-in-out;
+}
+.workers__button:hover > img{
+    filter: brightness(100);
+    transition: background-color .2s ease-in-out;
+}
+.workers_button-left > img{
+    transform: rotate(90deg);
+}
+.workers_button-right > img{
+    transform: rotate(-90deg);
+}
+/*---------- WORKERS_BUTTON ----------*/
+.workers__company{
+    width: 100%;
+    text-align: center;
+}
+.workers__company-statistics{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.workers__footer{
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
+
+}
+.workers__company-statistics, .workers__slider{
+    border-bottom: .12em solid gainsboro;
+}
+.workers__company{
+    display: grid;
+    gap: 3em;
+}
+.workers__company-statistics, .workers__slider{
+    padding-bottom: 3em;
+}
+.workers__company-title{
+    padding-top: 1.5em;
+}
+/*-------------------- SECTION WORKERS --------------------*/
