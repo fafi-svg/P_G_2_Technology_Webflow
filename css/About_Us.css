@@ -3,11 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 p{
     color:  #797979;
 }
 .color--blanco{
-    color: white;
+    color:  white;
 }
 .secciomn_alineamiento {
     display: grid;
@@ -35,7 +36,7 @@ p{
     flex-direction: column;
     align-items: center;
     gap: 1vh;
-    color: white;
+    color: white;   
     background: #5956E9;
     border-radius: 1.1vw;
 }
@@ -95,4 +96,32 @@ p{
 }
 .color--morado{
     color:  #5956e9;
+}
+.seccion_mission{
+    display: flex;
+    gap: 1vw;
+}
+.mission_espacio{
+    display: grid;
+    gap: 0.1vh;
+}
+.imagen--chulito{
+    width: 1.5vw;
+}
+.imagen_mission{
+    width: 18.8vw;
+}
+.espacio--mission{
+    padding: 5vw 0px;
+}
+.seccion_values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.contenido_value{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10vw;
 }
