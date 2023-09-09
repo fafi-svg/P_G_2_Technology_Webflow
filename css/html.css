@@ -84,9 +84,6 @@ a{
 } */
 
 /*--------------------  HEADER --------------------*/
-.header{
-    margin-bottom: 10vw;
-}
 .button--small-header{
     aspect-ratio: 9/3;
     height: 2.5em;
