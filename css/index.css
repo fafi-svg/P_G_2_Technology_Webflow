@@ -470,6 +470,8 @@ p, h2, h3, h4{
 
 .article__item-img{
     width: 100%;
+    border-radius: 1em;
+    overflow: hidden;
 }
 .article__item-picture{
     position: relative;
@@ -481,6 +483,8 @@ p, h2, h3, h4{
     height: 99%;
     position: absolute;
     z-index: 2;
+    border-radius: 1em;
+    overflow: hidden;
     background: linear-gradient(#0000 20%, #000);
     opacity: .7;
 }
@@ -536,7 +540,7 @@ p, h2, h3, h4{
 /*-------------------- SECTION SUBSCRIBE --------------------*/
   
 .subscribe{
-    background-image: url(../img/backgroun_.png);
+    background-image: url(../img/background_headboard-1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 5em 2em;
