@@ -83,6 +83,131 @@ a{
     color: #797979;
 } */
 
+/*--------------------  HEADER --------------------*/
+.header{
+    margin-bottom: 10vw;
+}
+.button--small-header{
+    aspect-ratio: 9/3;
+    height: 2.5em;
+}
+.header__content{
+    padding: 1em 0;
+}
+.header__logo img{
+    width: 12em;
+}
+.header__content{
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    width: 90%;
+    margin: auto;    
+}
+.header__nav-link{
+    display: flex;
+    gap: .5em;
+}
+.header__nav-arrow img{
+    width: .8em;
+    filter: contrast(100);
+}
+.header__nav, 
+.header__button, 
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.header__nav{
+    gap: 3em;
+}
+.header__nav-button,
+.header__nav-cart{
+    display: grid;
+    align-items: center;
+}
+.header__nav-cart img{
+    width: 2.5em;
+}
+.headboard{
+    width: 90%;
+    position: relative;
+    background-image: url(../img/background_headboard-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:100% auto; 
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 1vw;
+}
+.headboard__content-title{
+    line-height: 1em;
+    margin-bottom: .2em;
+}
+.headboard__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.headboard__content{
+    padding: 5.5em 0;
+    width: inherit;
+    margin: 0 auto;
+}
+.headboard__background{
+    width: 100%;
+}
+.button--center{
+    margin: 0 auto;
+}
+.headboard__graphics-img{
+    width: 100%;
+}
+.headboard__graphics-img{
+    position: absolute;
+    width: 85%;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 5;
+}
+/* .headboard__graphics--dropshadow-index{
+    filter: drop-shadow( 1px 1px 15px rgba(5, 125, 60, 1));
+} */
+.headboard__graphics::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 85%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    width: 86%;
+    height: 62%;
+    background: conic-gradient(from 247deg at 40% -25%,
+     #0600ff, #0353f7, #074eee, #540ae6,
+      #de0d0d, #d61039, #cf1261, #c71585,
+       #cf1261, #d61039, #de0d0d, #9907ee,
+        #540ae6, #0353f7, #074eee, #0600ff);
+    filter: blur(25px);
+    z-index: 2; 
+    opacity: 0.2;
+    border-radius: 15em;
+}
+.headboard__graphics::before{
+    content: "";
+    display: grid;
+    height: 6.3vw;
+    width: 100%;
+    padding-bottom: 10.5em;
+}
+/*--------------------  HEADER --------------------*/
+
 /* contenido del footer */
 footer{
     display: flex;
