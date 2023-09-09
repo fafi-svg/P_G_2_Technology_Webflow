@@ -196,6 +196,27 @@ a{
     opacity: 0.2;
     border-radius: 15em;
 }
+.subscribe__graphics::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 85%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    width: 86%;
+    height: 62%;
+    background: conic-gradient(from 247deg at 40% -25%,
+     #0600ff, #0353f7, #074eee, #540ae6,
+      #de0d0d, #d61039, #cf1261, #c71585,
+       #cf1261, #d61039, #de0d0d, #9907ee,
+        #540ae6, #0353f7, #074eee, #0600ff);
+    filter: blur(25px);
+    z-index: 0; 
+    opacity: 0.2;
+    border-radius: 15em;
+}
 .headboard__graphics::before{
     content: "";
     display: grid;
