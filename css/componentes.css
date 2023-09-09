@@ -59,9 +59,9 @@ a{
     border: .1em solid;
     border-color: var(--color-s4-light-low);
     color: var(--color-p2-shadow);
-    font-weight: 500;
+    font-weight: 800;
     border-radius: 1000px;
-    font-family: system-ui;
+    /* font-family: system-ui; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,11 +216,14 @@ textarea:focus{
     bottom: 0;
     display: grid;
     margin: auto;
-    margin: .6em;
+    height: 76%;
+    margin-right: .4em;
     text-align: center;
+    aspect-ratio: 8/3;
 }
 input.input-style-3{
     border-radius: 100px;
+    height: 3.5em;
 }
 input.input-style-3::placeholder{
     color: black;
