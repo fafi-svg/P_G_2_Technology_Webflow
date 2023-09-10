@@ -163,28 +163,20 @@ a{
     width: 100%;
 }
 .headboard__graphics-img{
-    position: absolute;
+    position: relative;
     width: 85%;
-    top: 60%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
     z-index: 5;
 }
-/* .headboard__graphics--dropshadow-index{
-    filter: drop-shadow( 1px 1px 15px rgba(5, 125, 60, 1));
-} */
-.headboard__graphics::after{
+
+.headboard__graphics-content-dropshadow::after{
     content: "";
     position: absolute;
     left: 0;
-    top: 85%;
     right: 0;
     bottom: 0;
     margin: auto;
     display: grid;
-    width: 86%;
+    width: 80%;
     height: 62%;
     background: conic-gradient(from 247deg at 40% -25%,
      #0600ff, #0353f7, #074eee, #540ae6,
@@ -217,13 +209,7 @@ a{
     opacity: 0.2;
     border-radius: 15em;
 }
-.headboard__graphics::before{
-    content: "";
-    display: grid;
-    height: 6.3vw;
-    width: 100%;
-    padding-bottom: 10.5em;
-}
+
 /*--------------------  HEADER --------------------*/
 
 /* contenido del footer */
