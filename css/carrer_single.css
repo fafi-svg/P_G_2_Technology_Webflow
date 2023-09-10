@@ -1,0 +1,42 @@
+.button--small-sapecRatio{
+    aspect-ratio: 10/3;
+}
+.carrer-container{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.carrer__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+.carrer__content-list{
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+.carrer__list{
+    display: flex;
+    gap: .5em;
+}
+.carrer{
+    display: grid;
+    grid-template-columns: auto 37%;
+    gap: 2em;
+    width: 80%;
+    margin: auto;
+}
+.carrer__section{
+    background-color: var(--color-s4-light-low);
+    height: max-content;
+    display: grid;
+    gap: .8em;
+    padding: 2em;
+    border-radius: .7em;
+}
+.carrer_content-img img{
+    width: 100%;
+}
+.carrer__list-check img{
+    width: 1.2em;
+}
