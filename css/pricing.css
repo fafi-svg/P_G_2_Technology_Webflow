@@ -10,6 +10,9 @@
     align-items: center;
     gap: 2em;
 }
+.header.header {
+    margin-bottom: 10em;
+}
 .section__plan{
     border: 0.1em solid #DCDCDC ;
     border-radius: 1em;
@@ -162,4 +165,11 @@
 }
 samp{
     font-size: .9vw;
+}
+.plan__footer{
+    padding: 1em;
+    text-align: center;
+    border: 0.1em solid #D3D3D3;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
