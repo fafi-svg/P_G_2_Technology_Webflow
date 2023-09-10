@@ -183,7 +183,7 @@ a{
       #de0d0d, #d61039, #cf1261, #c71585,
        #cf1261, #d61039, #de0d0d, #9907ee,
         #540ae6, #0353f7, #074eee, #0600ff);
-    filter: blur(25px);
+    filter: blur(3em);
     z-index: 2; 
     opacity: 0.2;
     border-radius: 15em;
