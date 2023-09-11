@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenido{
+    padding: 20vh 20vw;
+    display: grid;
+    gap: 2.5vw;
+}
+.ancho_imagen{
+    width: 58vw;
+}
+.ancho_texto{
+    font-weight: 900;
+}
+.contenido_chequeo{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5vh 0px;
+    justify-content: space-between;
+}
+.espaciado_chequeo{
+    display: grid;
+    gap: 4vh;
+}
+.acomodo_chequeo{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.tamaño_chequeo{
+    width: 2vw;
+}
+.acomodo_imagen{
+    display: flex;
+    justify-content: space-between;
+}
+.tamaño_imagen{
+    width: 28vw;
+    border-radius: 1vw;
+}
