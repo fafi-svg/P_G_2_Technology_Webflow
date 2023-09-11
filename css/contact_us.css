@@ -4,6 +4,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.text--color-white, .text--color-gray{
+    line-height: 1.4em;
+}
+.text--color-gray{
+    color: var( --color-s3-light-low);
+}
 .section__branch{
     width: 80%;
     margin: auto;
@@ -97,6 +103,8 @@
 }
 .section__container-faq{
     width: 65%;
+    display: grid;
+    gap: 1.5em;
 }
 .faq__title{
     text-align: center;
@@ -105,9 +113,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0.06rem solid #DCDCDC;
-    border-radius: 10px;
-    margin-top: 1em;
+    border: 0.06rem solid var(--color-s1-light);
+    border-radius: .7em;
     padding: 1em;
 }
 .faq__img{
@@ -117,7 +124,6 @@
     width: 100%;
 }
 .faq__lista{
-    padding: 1em;
     width: 40%;
     display: flex;
     gap: 1em;
@@ -131,6 +137,45 @@
 .faq__fondo{
     background-color: #F6F6F6;
 }
+.faq__conte-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding-left: 2.5em;
+}
+.faq__lista{
+    line-height: 1.4em;
+    color: var( --color-s3-light-low);
+}
+
+.faq__img{
+    width: 2em;
+    height: 2em;
+    background-color: var(--color-s4-light-low);
+    border-radius: 5em;
+    transition: background-color .2s ease-in-out;
+}
+.faq{
+    height: 4.4em;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: .7em;
+}
+
+.faq:focus-within{
+    height: 30em;
+    background-color: var(--color-s1-light);
+    transition-property: height, background-color;
+    transition: .2s ease-in-out;
+}
+.faq:focus-within > .faq__conte > .faq__img{
+    background-color: var(--color-p1-shadow-height);
+    transition: background-color .2s ease-in-out;
+    transition-property: background-color;
+    transition: .2s ease-in-out;
+}
+
 .headboard__content-datos{
     display: flex;
     justify-content: center;
