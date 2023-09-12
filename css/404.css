@@ -1,0 +1,17 @@
+.error-container{
+    padding: 6em;
+}
+.error{
+    width: 50%;
+    margin: auto;
+}
+.error__img img{
+    width: 100%;
+}
+.error__content{
+    display: flex;
+    justify-content: space-between;
+}
+.button--small-aspectRatio{
+    aspect-ratio: 10/3;
+}
