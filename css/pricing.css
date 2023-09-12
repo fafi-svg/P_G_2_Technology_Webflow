@@ -4,7 +4,6 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
-<<<<<<< HEAD
 
 .header__content,
 .header__logo,
@@ -102,8 +101,6 @@ a{
     border-radius: 2em;
     color: #fff;
 }
-=======
->>>>>>> da453d89928869bf114d73db7f8f619a2134bc17
 .section{
     display: flex;
     justify-content: center;
